@@ -34,5 +34,11 @@ namespace FizzBuzzProject.UnitTests
 
             Assert.AreEqual("7", result);
         }
+
+        [TestMethod]
+        public void IntentionalNotWorkingTest()
+        {
+            Assert.IsFalse(true);
+        }
     }
 }
